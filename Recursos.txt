@@ -1,0 +1,7 @@
+- @SpringBootApplication(exclude =  {DataSourceAutoConfiguration.class }) > La configuración automática de la fuente de datos está deshabilitada. Esto es útil cuando 
+                                    no se necesita una base de datos o se usa otra fuente de datos que no es compatible con la configuración automática de Spring Boot.
+
+- Bean de Servicio > Clase que proporciona una funcionalidad especifica a traves de metodos, utilizada para realizar operaciones comerciales en una aplicacion 
+                     Separa la logica de negocio de la logica de presentacion, Otros partes de la app pueden acceder a los metodos y funcionalidades de esta. Solo sirve como marcador
+
+- @RestController > Permite la creacion de ENDPOINTS que se utilizan para aceptar peticiones HTTP y devolver respuestas JSON
